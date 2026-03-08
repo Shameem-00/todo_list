@@ -22,7 +22,7 @@ class PracForm extends StatelessWidget {
           child: Column(
             children: [
               CustomTextFormField(
-                hintText: 'Enter Title',
+                hintText: 'Enter Title Title',
                 controller: titleController,
                 validator: (value) {
                   if (value == null || value.isEmpty) {
